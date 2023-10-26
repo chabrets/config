@@ -1,0 +1,13 @@
+# Turn off startup_message
+startup_message off
+# Turn off ugly screen flash instead of a bell sound
+vbell off
+# Remap escape to `  
+escape ``
+# How to type `
+escape `r
+# Hardstatus config 
+hardstatus alwayslastline
+hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{g}[%{W}%n*%f%t%?(%u)%?%{g}]%{w}%?%+Lw%?%? %= %{g}][%{W} %m/%d %{W}%c %{g}]'
+# Change def scrollback value
+defscrollback 40000
