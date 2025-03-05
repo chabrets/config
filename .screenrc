@@ -8,6 +8,6 @@ escape ``
 escape `r
 # Hardstatus config 
 hardstatus alwayslastline
-hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{g}[%{W}%n*%f%t%?(%u)%?%{g}]%{w}%?%+Lw%?%? %= %{g}][%{W} %m/%d %{W}%c %{g}]'
+hardstatus string "\033[32m[ %m/%d %c ]\033[0m%=\033[38;5;214m%?%-Lw%?(%n*%t)%?%+Lw%?%=\033[32m[ %H ]\033[0m"
 # Change def scrollback value
 defscrollback 40000
